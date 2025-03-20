@@ -1,0 +1,44 @@
+defaults:
+  rockets-enabled: true
+
+messages:
+  # Purge-Start
+  purge_start_title: "§4Purge Night hat begonnen"
+  purge_start_subtitle: "§4Töte jeden den du willst!"
+  purge_start_broadcast: "Die Purge Night ist ein PvP-Event, bei dem jeder Spieler ab sofort jeden anderen ohne besonderen Grund töten darf. Alle Regeln dazu findest du auf discord.gg/amethystra."
+  purge_action_bar: ""
+
+
+  # Purge-Ende
+  purge_end_title: "§4Die Purge Night ist vorbei"
+  purge_end_subtitle: "§4Der Frieden kehrt in die Welt zurück."
+  purge_end_broadcast: "§4Die Purge Night ist beendet. Ab sofort gelten wieder die normalen Regeln.Schau auf discord.gg/amethystra nach, wann die nächste Purge Night stattfindet."
+
+  # Reconnect während der Purge
+  reconnect_title: "§4Es ist Purge Night!"
+  reconnect_subtitle: "§4 Achtung! Du kannst von jedem getötet werden.
+"
+  reconnect_chat: "§4Weitere Informationen zu diesem Event findest du auf discord.gg/amethystra"
+
+  # Rocket-Togglevv
+  rocket_enabled: "§8Rocket boosting is enabled!"
+  rocket_disabled: "§cRocket boosting is disabled!"
+  rocket_disabled_action_bar: "§cRaketen sind während der Purge Night ausgeschaltet."
+
+  # Purge-Timer
+
+  purge_time_left: "§4Die Purge Night endet in: "
+
+  # Purge-Command
+  no_purge_active: "§4Es läuft aktuell keine Purge!"
+  purge_stopped: "§4Die Purge wurde gestoppt!"
+  purge_usage: "§4Verwendung: /purge start [time] oder /purge stop"
+  invalid_time: "§4Ungültige Zeit! Bitte gib eine Zahl in Minuten an."
+  purge_already_active: "§4Die Purge läuft bereits!"
+
+  #sleep
+  sleep_disabled: "§Du kannst während der Purge nicht schlafen!"
+
+sounds:
+  purge_start: "minecraft:entity.wither.spawn"
+  purge_end: "minecraft:entity.wither.death"

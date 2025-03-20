@@ -1,0 +1,21 @@
+name: Amethistra
+version: 1.0
+main: de.einFux.amethistra.Main
+api-version: '1.21'
+author: einFux
+commands:
+  rockettoggle:
+    description: Toggles rocket boosting
+    usage: /rockettoggle
+    permission: amethistra.rockettoggle
+  purge:
+    description: Starts or stops the Purge Night event
+    usage: /purge <start [time] | stop
+    permission: amethistra.purge
+    tab-completer: de.einFux.amethistra.commands.PurgeTabCompleter
+permissions:
+  amethistra.rockettoggle:
+    default: op
+  amethistra.purge:
+    default: op
+
